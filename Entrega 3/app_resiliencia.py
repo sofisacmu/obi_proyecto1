@@ -698,7 +698,7 @@ elif page == "🏆 Tournament":
     st.title("🏆 Tournament")
     st.write("Compara la política base contra Q-learning en varios paths.")
     if "Q" not in st.session_state:
-        st.warning("Primero entrena Q-learning en Policy Evaluation.")
+        st.warning("Primero entrena Q-learning en Policy Evaluation.") 
         st.stop()
     Q = st.session_state["Q"]
     n_eval = st.slider("Paths de evaluación", 5, min(50, n_paths), 20, 5)
