@@ -696,7 +696,7 @@ elif page == "🧠 Policy Evaluation":
 
 elif page == "🏆 Tournament":
     st.title("🏆 Tournament")
-    st.write("Compara la política base contra Q-learning en varios paths.")
+    st.write("Compara la política base contra Q-learning en varios paths.") 
     if "Q" not in st.session_state:
         st.warning("Primero entrena Q-learning en Policy Evaluation.") 
         st.stop()
